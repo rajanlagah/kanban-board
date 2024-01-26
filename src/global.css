@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.dot {
+  width: 0.2rem;
+  height: 0.2rem;
+  background-color: gray;
+  border-radius: 50%;
+}
+.text-gray {
+  color: gray;
+}
+.icon__dots {
+  gap: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex {
+  display: flex;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.gap-1 {
+  gap: 1rem;
+}
+.gap-3 {
+  gap: 3rem;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.relative {
+  position: relative;
+}
+.font-md {
+  font-size: 0.6rem;
+}
+
+.font-1 {
+  font-size: 1rem;
+}
+.font-2 {
+  font-size: 1.3rem;
+}
+ul {
+  padding: 0 !important;
+}
+.icon-wide svg {
+  transform: scale(1.5, 1) !important;
+}
+.w-screen {
+  width: 100vw;
+}
+.text-center {
+  text-align: center;
+}

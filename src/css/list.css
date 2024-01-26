@@ -1,0 +1,24 @@
+.list {
+  min-width: 340px;
+  max-width: 340px;
+}
+
+.list:last-child {
+  padding-right: 3rem;
+}
+
+.list__header {
+  display: grid;
+  grid-template-columns: 1fr 12fr 1fr 1fr; /* More space allocated to the 2nd component */
+  gap: 0.15rem;
+  text-align: left;
+  font-size: 0.9rem;
+  z-index: -1;
+  align-items: center;
+  position: relative;
+}
+.list__add__button {
+  background-color: transparent;
+  border: 0;
+  font-size: 1.2rem;
+}

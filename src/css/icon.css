@@ -1,0 +1,20 @@
+.icon {
+  font-size: 1.2rem;
+}
+.icon-orangered {
+  color: rgb(213, 64, 10);
+}
+.icon-gray {
+  color: gray;
+}
+.icon-yellow {
+  color: #f1ca49;
+}
+.icon-progress {
+  font-size: 1.5rem;
+  margin-top: -0.2rem;
+}
+
+.icon-blue {
+  color: #5f6bd2;
+}
